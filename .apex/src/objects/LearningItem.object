@@ -12,9 +12,9 @@
         <fullName>EnablementProgramId</fullName>
         <type>Lookup</type>
     </fields>
-    <fields>
-        <fullName>LearningContentId</fullName>
-    </fields>
+<!--    <fields>-->
+<!--        <fullName>LearningContentId</fullName>-->
+<!--    </fields>-->
     <fields>
         <fullName>LearningLinkId</fullName>
         <type>Lookup</type>

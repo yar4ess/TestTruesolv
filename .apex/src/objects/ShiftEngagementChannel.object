@@ -148,11 +148,11 @@
         <filterScope>Everything</filterScope>
         <label>All Shift Engagement Channels</label>
     </listViews>
-    <listViews>
-        <fullName>My_ShiftEngagementChannels</fullName>
-        <filterScope>Mine</filterScope>
-        <label>My Shift Engagement Channels</label>
-    </listViews>
+<!--    <listViews>-->
+<!--        <fullName>My_ShiftEngagementChannels</fullName>-->
+<!--        <filterScope>Mine</filterScope>-->
+<!--        <label>My Shift Engagement Channels</label>-->
+<!--    </listViews>-->
     <searchLayouts>
         <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
         <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>

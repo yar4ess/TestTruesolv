@@ -7,10 +7,10 @@
         <fullName>SourceObjectId</fullName>
         <type>Lookup</type>
     </fields>
-    <listViews>
-        <fullName>PaymentGroup</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
+<!--    <listViews>-->
+<!--        <fullName>PaymentGroup</fullName>-->
+<!--        <filterScope>Everything</filterScope>-->
+<!--        <label>All</label>-->
+<!--    </listViews>-->
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

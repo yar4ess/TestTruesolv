@@ -155,11 +155,11 @@
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
-    <listViews>
-        <fullName>All_CommSubscriptionChannelTypes</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All Communication Subscription Channel Types</label>
-    </listViews>
+<!--    <listViews>-->
+<!--        <fullName>All_CommSubscriptionChannelTypes</fullName>-->
+<!--        <filterScope>Everything</filterScope>-->
+<!--        <label>All Communication Subscription Channel Types</label>-->
+<!--    </listViews>-->
     <searchLayouts>
         <customTabListAdditionalFields>CommunicationSubscription</customTabListAdditionalFields>
         <customTabListAdditionalFields>EngagementChannelType</customTabListAdditionalFields>

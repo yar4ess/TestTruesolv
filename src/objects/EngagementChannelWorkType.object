@@ -148,11 +148,11 @@
         <filterScope>Everything</filterScope>
         <label>All Engagement Channel Work Types</label>
     </listViews>
-    <listViews>
-        <fullName>My_EngagementChannelWorkTypes</fullName>
-        <filterScope>Mine</filterScope>
-        <label>My Engagement Channel Work Types</label>
-    </listViews>
+<!--    <listViews>-->
+<!--        <fullName>My_EngagementChannelWorkTypes</fullName>-->
+<!--        <filterScope>Mine</filterScope>-->
+<!--        <label>My Engagement Channel Work Types</label>-->
+<!--    </listViews>-->
     <searchLayouts>
         <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
         <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
