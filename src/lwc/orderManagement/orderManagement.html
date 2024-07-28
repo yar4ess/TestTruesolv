@@ -1,0 +1,32 @@
+<template>
+    <div class="slds-m-around_medium">
+        <div class="slds-grid">
+            <div class="slds-col slds-size_2-of-3">
+                <h1>{accountName} - {accountNumber}</h1>
+            </div>
+            <div class="slds-col slds-size_1-of-3">
+                <lightning-button label="Create Product" onclick={handleCreateProduct}></lightning-button>
+                <lightning-button label="Cart" onclick={handleOpenCart}></lightning-button>
+            </div>
+        </div>
+        <div class="slds-grid">
+            <div class="slds-col slds-size_1-of-3">
+                <div>
+                    <h3>Filter</h3>
+                    <p>Type:</p>
+                    <lightning-combobox options={typeOptions} onchange={handleTypeChange}></lightning-combobox>
+                    <p>Family:</p>
+                    <lightning-combobox options={familyOptions} onchange={handleFamilyChange}></lightning-combobox>
+                </div>
+            </div>
+            <div class="slds-col slds-size_2-of-3">
+                <lightning-input label="Search" onchange={handleSearch}></lightning-input>
+                <div>
+                    <template for:each={filteredProducts} for:item="product">
+                        <c-product-tile key={product.Id} product={product}></c-product-tile>
+                    </template>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
