@@ -23,7 +23,7 @@ trigger OrderItemTrigger on OrderItem__c (after insert, after update, after dele
 		if (groupedResults.size() > 0) {
 			Order__c orderToUpdate = new Order__c();
 			orderToUpdate.Id = orderId;
-			orderToUpdate.TotalProductCount__c = (Decimal)groupedResults[0].get('totalProductCount'); // Преобразование Decimal в Integer
+			orderToUpdate.TotalProductCount__c = (Decimal)groupedResults[0].get('totalProductCount');
 			orderToUpdate.TotalPrice__c = (Decimal)groupedResults[0].get('totalPrice');
 			ordersToUpdate.add(orderToUpdate);
 		}
