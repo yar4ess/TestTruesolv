@@ -205,6 +205,20 @@
         <filterScope>Mine</filterScope>
         <label>My Invoices</label>
     </listViews>
+    <listViews>
+        <fullName>mine</fullName>
+        <columns>Name</columns>
+        <columns>BillingAccount</columns>
+        <columns>Status</columns>
+        <columns>TotalAmount</columns>
+        <columns>TotalChargeAmount</columns>
+        <columns>TotalAdjustmentAmount</columns>
+        <columns>TotalTaxAmount</columns>
+        <columns>InvoiceDate</columns>
+        <columns>DueDate</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Invoices</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
         <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>

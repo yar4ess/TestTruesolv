@@ -6,6 +6,7 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>Yaroslav</members>
         <members>standard__AllTabSet</members>
         <members>standard__AppLauncher</members>
         <members>standard__Chatter</members>
@@ -175,6 +176,8 @@
         <members>OpportunityRelatedDeleteLog</members>
         <members>Order</members>
         <members>OrderItem</members>
+        <members>OrderItem__c</members>
+        <members>Order__c</members>
         <members>OrgDeleteRequest</members>
         <members>OrgMetricScanResult</members>
         <members>OrgMetricScanSummary</members>
@@ -203,6 +206,7 @@
         <members>ProductCategory</members>
         <members>ProductCategoryProduct</members>
         <members>ProductConsumptionSchedule</members>
+        <members>Product__c</members>
         <members>Promotion</members>
         <members>PromotionLineItemRule</members>
         <members>PromotionMarketSegment</members>
@@ -291,6 +295,16 @@
         <members>WorkTypeGroup</members>
         <members>WorkTypeGroupMember</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>OrderItem__c-ru</members>
+        <members>Order__c-ru</members>
+        <members>Product__c-ru</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>OrderManagement</members>
+        <name>CustomTab</name>
     </types>
     <types>
         <members>Account-Account %28Marketing%29 Layout</members>
@@ -387,6 +401,8 @@
         <members>OpportunityLineItem-Opportunity Product Layout</members>
         <members>Order-Order Layout</members>
         <members>OrderItem-Order Product Layout</members>
+        <members>OrderItem__c-OrderItem Layout</members>
+        <members>Order__c-Order Layout</members>
         <members>Payment-Payment Layout</members>
         <members>PaymentAuthAdjustment-Payment Authorization Adjustment Layout</members>
         <members>PaymentAuthorization-Payment Authorization Layout</members>
@@ -399,6 +415,7 @@
         <members>ProcessException-Process Exception Layout</members>
         <members>Product2-Product Layout</members>
         <members>ProductConsumptionSchedule-Product Consumption Schedule Layout</members>
+        <members>Product__c-Product Layout</members>
         <members>QuickText-Quick Text Layout</members>
         <members>Refund-Refund Layout</members>
         <members>RefundLinePayment-Refund Line Payment Layout</members>
@@ -452,6 +469,11 @@
         <members>WorkTypeGroup-Work Type Group Layout</members>
         <members>WorkTypeGroupMember-Work Type Group Member Layout</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>Experience_Profile_Manager</members>
+        <members>sfdcInternalInt__sfdc_scrt2</members>
+        <name>PermissionSet</name>
     </types>
     <types>
         <members>Case</members>

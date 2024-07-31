@@ -4,7 +4,7 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
-<!--    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>-->
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <label>Subscription Management</label>
     <navType>Console</navType>
     <tabs>standard-Product2</tabs>

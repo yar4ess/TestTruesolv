@@ -161,10 +161,28 @@
         <label>All Categories</label>
     </listViews>
     <listViews>
+        <fullName>All_Product_Categories_List_View</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Categories</label>
+    </listViews>
+    <listViews>
         <fullName>Category_Hierarchy_SM</fullName>
         <columns>Name</columns>
         <filterScope>Everything</filterScope>
         <label>Subscription Management Categories</label>
+    </listViews>
+    <listViews>
+        <fullName>Category_Hierarchy_SM</fullName>
+        <columns>Name</columns>
+        <filterScope>Everything</filterScope>
+        <label>Subscription Management Categories</label>
+    </listViews>
+    <listViews>
+        <fullName>Org_ProductCategory_Hierarchy</fullName>
+        <columns>Name</columns>
+        <columns>IsNavigational</columns>
+        <filterScope>Everything</filterScope>
+        <label>Category Hierarchies</label>
     </listViews>
     <listViews>
         <fullName>Org_ProductCategory_Hierarchy</fullName>

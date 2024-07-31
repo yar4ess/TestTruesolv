@@ -292,6 +292,15 @@
         <filterScope>Everything</filterScope>
         <label>All Incidents (Default)</label>
     </listViews>
+    <listViews>
+        <fullName>AllIncidentsDefault</fullName>
+        <columns>Name</columns>
+        <columns>Subject</columns>
+        <columns>Description</columns>
+        <columns>Status</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Incidents (Default)</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Subject</customTabListAdditionalFields>
         <customTabListAdditionalFields>Status</customTabListAdditionalFields>

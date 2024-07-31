@@ -167,5 +167,10 @@
         <filterScope>Mine</filterScope>
         <label>My Contact Requests</label>
     </listViews>
+    <listViews>
+        <fullName>My_ContactRequests</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Contact Requests</label>
+    </listViews>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

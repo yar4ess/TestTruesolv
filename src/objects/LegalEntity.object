@@ -163,6 +163,15 @@
         <filterScope>Mine</filterScope>
         <label>My Legal Entities</label>
     </listViews>
+    <listViews>
+        <fullName>mine</fullName>
+        <columns>Name</columns>
+        <columns>CompanyName</columns>
+        <columns>Description</columns>
+        <columns>Status</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Legal Entities</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
         <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>

@@ -199,5 +199,10 @@
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
+    <listViews>
+        <fullName>PaymentAuthorization</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

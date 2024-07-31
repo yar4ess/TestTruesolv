@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ApexVcsIndex">
     <index-record>
+      <option name="path" value="/src/classes/ProductController.cls" />
+      <option name="type" value="MODIFIED" />
+    </index-record>
+    <index-record>
       <option name="path" value="/src/lwc/orderManagement/orderManagement.js" />
       <option name="type" value="MODIFIED" />
     </index-record>

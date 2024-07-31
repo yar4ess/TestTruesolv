@@ -153,6 +153,11 @@
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
+    <listViews>
+        <fullName>AssetStatePeriod</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Asset</customTabListAdditionalFields>
         <customTabListAdditionalFields>StartDate</customTabListAdditionalFields>

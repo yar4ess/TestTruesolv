@@ -211,6 +211,20 @@
         <filterScope>Mine</filterScope>
         <label>My Credit Memos</label>
     </listViews>
+    <listViews>
+        <fullName>mine</fullName>
+        <columns>Name</columns>
+        <columns>CreditMemoNumber</columns>
+        <columns>BillingAccount</columns>
+        <columns>Status</columns>
+        <columns>TotalAmount</columns>
+        <columns>TotalChargeAmount</columns>
+        <columns>TotalAdjustmentAmount</columns>
+        <columns>TotalTaxAmount</columns>
+        <columns>CreditDate</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Credit Memos</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>BillingAccount</customTabListAdditionalFields>
         <customTabListAdditionalFields>Status</customTabListAdditionalFields>

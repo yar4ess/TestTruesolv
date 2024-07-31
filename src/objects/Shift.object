@@ -211,6 +211,16 @@
         <label>All Shifts</label>
     </listViews>
     <listViews>
+        <fullName>All_Shifts</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Shifts</label>
+    </listViews>
+    <listViews>
+        <fullName>My_Shifts</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Shifts</label>
+    </listViews>
+    <listViews>
         <fullName>My_Shifts</fullName>
         <filterScope>Mine</filterScope>
         <label>My Shifts</label>

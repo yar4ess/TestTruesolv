@@ -164,6 +164,11 @@
         <filterScope>Everything</filterScope>
         <label>All Authorization Forms</label>
     </listViews>
+    <listViews>
+        <fullName>All_AuthorizationForms</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Authorization Forms</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>RevisionNumber</customTabListAdditionalFields>
         <customTabListAdditionalFields>EffectiveFromDate</customTabListAdditionalFields>

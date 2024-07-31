@@ -171,6 +171,11 @@
         <filterScope>Everything</filterScope>
         <label>All Process Exceptions</label>
     </listViews>
+    <listViews>
+        <fullName>all_process_exceptions</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Process Exceptions</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>CreatedDate</customTabListAdditionalFields>
         <customTabListAdditionalFields>Status</customTabListAdditionalFields>

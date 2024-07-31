@@ -268,6 +268,16 @@
         <label>All Return Orders</label>
     </listViews>
     <listViews>
+        <fullName>All_ReturnOrders</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Return Orders</label>
+    </listViews>
+    <listViews>
+        <fullName>My_ReturnOrders</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Return Orders</label>
+    </listViews>
+    <listViews>
         <fullName>My_ReturnOrders</fullName>
         <filterScope>Mine</filterScope>
         <label>My Return Orders</label>

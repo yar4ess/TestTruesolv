@@ -4,7 +4,7 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
-<!--    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>-->
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <label>FlowsApp</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>

@@ -140,5 +140,10 @@
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
+    <listViews>
+        <fullName>PaymentGateway</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

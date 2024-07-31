@@ -169,6 +169,11 @@
         <filterScope>Everything</filterScope>
         <label>All Coupons</label>
     </listViews>
+    <listViews>
+        <fullName>ALL_Coupons</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Coupons</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>CouponCode</customTabListAdditionalFields>
         <customTabListAdditionalFields>Description</customTabListAdditionalFields>

@@ -159,6 +159,11 @@
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
+    <listViews>
+        <fullName>LocationGroup</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>ExternalReference</customTabListAdditionalFields>
         <customTabListAdditionalFields>IsEnabled</customTabListAdditionalFields>

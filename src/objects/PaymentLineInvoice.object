@@ -155,5 +155,10 @@
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
+    <listViews>
+        <fullName>PaymentLineInvoice</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

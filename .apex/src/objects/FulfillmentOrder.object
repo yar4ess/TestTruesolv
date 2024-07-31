@@ -183,16 +183,16 @@
         <fullName>Type</fullName>
         <type>Picklist</type>
     </fields>
-<!--    <listViews>-->
-<!--        <fullName>all_fulfillment_orders</fullName>-->
-<!--        <filterScope>Everything</filterScope>-->
-<!--        <filters>-->
-<!--            <field>IsArchived</field>-->
-<!--            <operation>equals</operation>-->
-<!--            <value>0</value>-->
-<!--        </filters>-->
-<!--        <label>All Fulfillment Orders</label>-->
-<!--    </listViews>-->
+    <listViews>
+        <fullName>all_fulfillment_orders</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IsArchived</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>All Fulfillment Orders</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Status</customTabListAdditionalFields>
         <customTabListAdditionalFields>FulfilledToName</customTabListAdditionalFields>

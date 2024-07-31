@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>OrderItem</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>OrderItems</value>
+    </caseValues>
+    <fields>
+        <label><!-- OrderId --></label>
+        <name>OrderId__c</name>
+        <relationshipLabel><!-- OrderItems --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProductId --></label>
+        <name>ProductId__c</name>
+        <relationshipLabel><!-- OrderItems --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>Quantity__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

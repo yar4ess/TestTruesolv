@@ -175,6 +175,11 @@
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
+    <listViews>
+        <fullName>AssetActionSource</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>AssetAction</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>AssetAction</lookupDialogsAdditionalFields>

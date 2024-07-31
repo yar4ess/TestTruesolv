@@ -177,6 +177,11 @@
         <filterScope>Mine</filterScope>
         <label>MyVoiceCalls</label>
     </listViews>
+    <listViews>
+        <fullName>My_VoiceCalls</fullName>
+        <filterScope>Mine</filterScope>
+        <label>MyVoiceCalls</label>
+    </listViews>
     <searchLayouts>
         <lookupDialogsAdditionalFields>CallStartDateTime</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>CallType</lookupDialogsAdditionalFields>

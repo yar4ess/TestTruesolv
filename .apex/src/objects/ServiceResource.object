@@ -161,6 +161,16 @@
         <label>All Service Resources</label>
     </listViews>
     <listViews>
+        <fullName>All_ServiceResources</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Service Resources</label>
+    </listViews>
+    <listViews>
+        <fullName>My_ServiceResources</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Service Resources</label>
+    </listViews>
+    <listViews>
         <fullName>My_ServiceResources</fullName>
         <filterScope>Mine</filterScope>
         <label>My Service Resources</label>

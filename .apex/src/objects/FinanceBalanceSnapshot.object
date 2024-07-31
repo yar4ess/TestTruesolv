@@ -183,6 +183,16 @@
         <filterScope>Mine</filterScope>
         <label>My Finance Balance Snapshots</label>
     </listViews>
+    <listViews>
+        <fullName>mine</fullName>
+        <columns>Name</columns>
+        <columns>Balance</columns>
+        <columns>ReferenceEntity</columns>
+        <columns>TransactionDate</columns>
+        <columns>EffectiveDate</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Finance Balance Snapshots</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Account</customTabListAdditionalFields>
         <customTabListAdditionalFields>ReferenceEntity</customTabListAdditionalFields>

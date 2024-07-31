@@ -148,6 +148,11 @@
         <filterScope>Everything</filterScope>
         <label>All Business Brands</label>
     </listViews>
+    <listViews>
+        <fullName>All_BusinessBrands</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Business Brands</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>OrgId</customTabListAdditionalFields>
         <searchResultsAdditionalFields>OrgId</searchResultsAdditionalFields>

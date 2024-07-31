@@ -143,6 +143,11 @@
         <filterScope>Everything</filterScope>
         <label>All Catalogs</label>
     </listViews>
+    <listViews>
+        <fullName>All_Product_Catalogs_List_View</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Catalogs</label>
+    </listViews>
     <searchLayouts/>
     <sharingModel>Private</sharingModel>
 </CustomObject>

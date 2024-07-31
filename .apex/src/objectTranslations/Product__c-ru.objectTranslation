@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Product</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Products</value>
+    </caseValues>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Family --></label>
+        <name>Family__c</name>
+        <picklistValues>
+            <masterLabel>Boo</masterLabel>
+            <translation><!-- Boo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decommissioned</masterLabel>
+            <translation><!-- Decommissioned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>random</masterLabel>
+            <translation><!-- random --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Image --></label>
+        <name>Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Books</masterLabel>
+            <translation><!-- Books --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clothes</masterLabel>
+            <translation><!-- Clothes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronics</masterLabel>
+            <translation><!-- Electronics --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>
