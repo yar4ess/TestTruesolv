@@ -97,7 +97,6 @@ export default class OrderManagement extends LightningElement {
         const product = this.filteredProducts.find(prod => prod.Id === productId);
         if (product) {
             this.cartProducts.push(product);
-            // Показать сообщение Toast
             const toastEvent = new ShowToastEvent({
                 title: 'Product Added',
                 message: `${product.Name} has been added to the cart.`,
@@ -119,13 +118,10 @@ export default class OrderManagement extends LightningElement {
         this.isCartModalOpen = false;
     }
     handleCheckout() {
-        // Создание заказа и элементов заказа
         createOrderAndItems({ cartProducts: this.cartProducts })
             .then(result => {
-                // Успешное создание заказа
-                this.cartProducts = []; // Очистить корзину
-                this.isCartModalOpen = false; // Закрыть модальное окно корзины
-                // Показать сообщение о завершении оформления
+                this.cartProducts = [];
+                this.isCartModalOpen = false;
                 this.dispatchEvent(
                     new ShowToastEvent({
                         title: 'Order Created',
@@ -136,7 +132,6 @@ export default class OrderManagement extends LightningElement {
             })
             .catch(error => {
                 console.error('Error creating order:', error);
-                // Показать сообщение об ошибке
                 this.dispatchEvent(
                     new ShowToastEvent({
                         title: 'Error',
@@ -146,5 +141,4 @@ export default class OrderManagement extends LightningElement {
                 );
             });
     }
-
 }

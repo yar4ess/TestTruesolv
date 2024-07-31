@@ -10,8 +10,8 @@ public with sharing class OrderController {
 			OrderItem__c orderItem = new OrderItem__c();
 			orderItem.OrderId__c = newOrder.Id;
 			orderItem.ProductId__c = product.Id;
-			orderItem.Quantity__c = 1; // Пример значения
-			orderItem.Price__c = product.Price__c; // Предполагается, что в продукте есть поле Price__c
+			orderItem.Quantity__c = 1;
+			orderItem.Price__c = product.Price__c;
 			orderItems.add(orderItem);
 		}
 		insert orderItems;
