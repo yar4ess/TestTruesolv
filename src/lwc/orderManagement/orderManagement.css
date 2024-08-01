@@ -1,0 +1,22 @@
+.search-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.search-input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.search-button {
+    flex-shrink: 0;
+    margin-bottom: -4px;
+    height: 36px;
+}
+
+.no-products-message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: red;
+}
