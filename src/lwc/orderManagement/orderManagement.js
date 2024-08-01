@@ -1,5 +1,5 @@
 import { LightningElement, track, wire, api } from 'lwc';
-import getAccountDetails from '@salesforce/apex/AccountController.getAccountDetails';
+//import getAccountDetails from '@salesforce/apex/AccountController.getAccountDetails';
 import getFilteredProducts from '@salesforce/apex/ProductController.getFilteredProducts';
 import getUniqueFamilies from '@salesforce/apex/ProductController.getUniqueFamilies';
 import getUniqueTypes from '@salesforce/apex/ProductController.getUniqueTypes';
@@ -22,17 +22,17 @@ export default class OrderManagement extends LightningElement {
     @track searchKeyword = '';
     @track isManager = false;
     @track isCreateProductModalOpen = false;
-    @api recordId;
-
-    @wire(getAccountDetails, { accountId: '$recordId' })
-    wiredAccount({ error, data }) {
-        if (data) {
-            this.accountName = data.Name;
-            this.accountNumber = data.AccountNumber;
-        } else if (error) {
-            console.error('Account error:', error);
-        }
-    }
+//    @api recordId;
+//
+//    @wire(getAccountDetails, { accountId: '$recordId' })
+//    wiredAccount({ error, data }) {
+//        if (data) {
+//            this.accountName = data.Name;
+//            this.accountNumber = data.AccountNumber;
+//        } else if (error) {
+//            console.error('Account error:', error);
+//        }
+//    }
 
     connectedCallback() {
         this.fetchFamiliesAndTypes();

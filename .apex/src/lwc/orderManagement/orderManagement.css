@@ -1,22 +1,22 @@
 .search-container {
     display: flex;
-    align-items: flex-end; /* Выровнять элементы по нижнему краю */
+    align-items: flex-end;
 }
 
 .search-input {
-    flex: 1; /* Занимает все доступное пространство */
-    margin-right: 10px; /* Отступ справа от поля ввода */
+    flex: 1;
+    margin-right: 10px;
 }
 
 .search-button {
-    flex-shrink: 0; /* Не уменьшать кнопку по ширине */
-    margin-bottom: -6px; /* Убрать нижний отступ */
-    height: 36px; /* Установить фиксированную высоту, соответствующую высоте поля ввода */
+    flex-shrink: 0;
+    margin-bottom: -4px;
+    height: 36px;
 }
 
 .no-products-message {
     text-align: center;
     margin-top: 20px;
-    font-size: 1.2em; /* Увеличение размера шрифта */
-    color: red; /* Цвет текста сообщения */
+    font-size: 1.2em;
+    color: red;
 }

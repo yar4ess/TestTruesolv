@@ -2,19 +2,31 @@
 <project version="4">
   <component name="ApexVcsIndex">
     <index-record>
-      <option name="path" value="/src/lwc/orderManagement/orderManagement.html" />
+      <option name="path" value="/src/classes/AccountControllerTest.cls-meta.xml" />
+      <option name="type" value="DELETED" />
+    </index-record>
+    <index-record>
+      <option name="path" value="/src/classes/AccountController.cls" />
+      <option name="type" value="DELETED" />
+    </index-record>
+    <index-record>
+      <option name="path" value="/src/classes/AccountController.cls-meta.xml" />
+      <option name="type" value="DELETED" />
+    </index-record>
+    <index-record>
+      <option name="path" value="/src/classes/ProductImageServiceTest.cls" />
       <option name="type" value="MODIFIED" />
     </index-record>
     <index-record>
-      <option name="path" value="/src/lwc/orderManagement/orderManagement.css" />
+      <option name="path" value="/src/triggers/OrderItemTrigger.trigger" />
       <option name="type" value="MODIFIED" />
     </index-record>
     <index-record>
-      <option name="path" value="/src/classes/UserController.cls" />
-      <option name="type" value="MODIFIED" />
+      <option name="path" value="/src/classes/AccountControllerTest.cls" />
+      <option name="type" value="DELETED" />
     </index-record>
     <index-record>
-      <option name="path" value="/src/lwc/orderManagement/orderManagement.js" />
+      <option name="path" value="/src/classes/ProductTriggerTest.cls" />
       <option name="type" value="MODIFIED" />
     </index-record>
   </component>

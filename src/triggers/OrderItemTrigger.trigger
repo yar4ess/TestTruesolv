@@ -35,7 +35,7 @@ trigger OrderItemTrigger on OrderItem__c (before insert, before update, after in
 		}
 	}
 
-	if (Trigger.isAfter) {
+	if (Trigger.isAfter || Trigger.isDelete) {
 		List<Order__c> ordersToUpdate = new List<Order__c>();
 
 		for (Id orderId : orderIds) {
@@ -56,6 +56,12 @@ trigger OrderItemTrigger on OrderItem__c (before insert, before update, after in
 				orderToUpdate.TotalPrice__c = totalPrice;
 
 				ordersToUpdate.add(orderToUpdate);
+			} else {
+				Order__c orderToUpdate = new Order__c();
+				orderToUpdate.Id = orderId;
+				orderToUpdate.TotalProductCount__c = 0;
+				orderToUpdate.TotalPrice__c = 0;
+				ordersToUpdate.add(orderToUpdate);
 			}
 		}
 
@@ -64,7 +70,4 @@ trigger OrderItemTrigger on OrderItem__c (before insert, before update, after in
 		}
 	}
 }
-
-
-
 
